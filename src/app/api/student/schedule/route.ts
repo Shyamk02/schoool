@@ -124,4 +124,3 @@ export async function GET(request: Request) {
   //   console.error('Error fetching schedule:', error);
     return NextResponse.json({ message: 'Internal server error' }, { status: 500 });
   }
-}
